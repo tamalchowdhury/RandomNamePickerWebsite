@@ -1,0 +1,29 @@
+.info {
+  display: grid;
+  gap: 4rem;
+}
+
+.header {
+  color: #333;
+
+  &__title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  &__tagline {
+    font-size: 1.5rem;
+  }
+}
+
+.feature {
+  color: #fff;
+
+  &__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  &__description {
+  }
+}

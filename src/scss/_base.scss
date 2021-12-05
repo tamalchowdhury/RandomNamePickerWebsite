@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 100%;
+}
+
+body {
+  background: #b4dbfa;
+  background: linear-gradient(180deg, #40a5f5, #b4dbfa);
+  line-height: 1.3;
+  height: inherit;
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.container {
+  width: 800px;
+  height: inherit;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  align-items: center;
+}
+
+.phone {
+  &__shell {
+    // background: url('../src/img/shell.png');
+    background-position: left top;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
